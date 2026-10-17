@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | School Announcement Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="dashboard-page">
+
+    <header class="navbar">
+        <a class="site-logo" href="dashboard.html">
+            🎓 School Announcement Hub
+        </a>
+        <button id="logoutButton" class="logout-button">Logout</button>
+    </header>
+
+    <section class="hero">
+        <p class="eyebrow">YOUR SCHOOL. ONE PLACE.</p>
+        <h1>School Announcements</h1>
+        <p>Never miss an important school update again.</p>
+        <h3 id="welcomeMessage">Welcome!</h3>
+    </section>
+
+    <main class="content">
+        <h2>Latest Announcements</h2>
+        <p class="subtitle">
+            All important school updates in one place.
+        </p>
+
+        <input id="searchInput" class="search-box"
+               type="search"
+               placeholder="Search announcements...">
+
+        <div id="announcementList" class="announcement-grid"></div>
+        <p id="emptyMessage" hidden>No announcements found.</p>
+    </main>
+
+    <footer>© 2026 School Announcement Hub</footer>
+
+</body>
+</html>
